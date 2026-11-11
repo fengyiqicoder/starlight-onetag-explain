@@ -1,0 +1,14 @@
+{
+  "name": "starlight-onetag-explain",
+  "version": "0.1.0",
+  "description": "An Explain button on every code block in your Starlight docs: readers get a plain-language walkthrough of the snippet, written by AI in the browser. No backend.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": ["astro", "starlight", "starlight-plugin", "withastro", "docs", "ai", "onetag", "no-backend", "code", "explain", "expressive-code", "code-block"],
+  "repository": { "type": "git", "url": "git+https://github.com/fengyiqicoder/starlight-onetag-explain.git" },
+  "homepage": "https://github.com/fengyiqicoder/starlight-onetag-explain",
+  "exports": { ".": "./index.js", "./client": "./client.js" },
+  "files": ["index.js", "client.js", "plugin.js", "shared.js", "README.md", "LICENSE"],
+  "dependencies": { "onetagai": "^1.2.0" },
+  "peerDependencies": { "@astrojs/starlight": ">=0.32.0", "astro": ">=5.0.0" }
+}
